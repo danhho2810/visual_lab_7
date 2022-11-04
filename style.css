@@ -1,0 +1,18 @@
+#tooltip{
+    position:fixed;
+    display:none;
+    color: white;
+    background-color: black;
+    opacity: 0.85;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+h2{
+    color:blue;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 170px;
+}

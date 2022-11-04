@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Lab 7 Title-->
+    <title>Lab 7: Layout & Map</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+
+    <!--Import CSS code-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Import JS code-->
+    <script defer src="script.js"></script>
+    
+  </head>
+  <body>
+    <h2 class="title">Airport Connections</h2>   
+    
+    <div class="radio">
+        <div class="container">
+            <div class="row">
+              <input type="radio" id="force" name="type" value="force" checked>
+              <label for="force">Force</label>
+              <input type="radio" id="map" name="type" value="map">
+              <label for="map">Map</label>
+            </div>
+            
+            <div class="row">
+              <div class="column">
+                <div id="tooltip" class="hidden"></div>
+                <div class="chart"></div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tooltip"></div>
+    <div class="chart"></div>
+  </body>
+</html>
